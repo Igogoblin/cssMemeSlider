@@ -136,3 +136,14 @@ input[name="r"] {
   height: 4em;
   background: #000;
 }
+@media screen and (max-width: 31.25em) {
+  .navigation {
+    justify-content: center;
+  }
+  .container {
+    padding-bottom: 0em;
+  }
+  .block {
+    width: 20%;
+  }
+}
