@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #000;
+}
+
+.slider {
+  width: 90%;
+  height: 50%;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  color: #fff;
+  padding-bottom: 2.5em;
+}
+.navigation {
+  width: 100%;
+  position: absolute;
+  bottom: 2em;
+  right: 0;
+  display: flex;
+  justify-content: end;
+  z-index: 10;
+}
+
+.bar {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.for {
+  display: block;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  background-color: #0993d3;
+  border: 0.1em solid #0993d3;
+}
+
+.bar:hover .for {
+  border: 0.1em solid #fff;
+  background: #fff;
+}
